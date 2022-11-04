@@ -21,6 +21,11 @@ from utils.transforms import projectPoints
 
 logger = logging.getLogger(__name__)
 
+'''
+TRAIN_LIST = [
+    '160422_ultimatum1',
+]
+'''
 TRAIN_LIST = [
     '160422_ultimatum1',
     '160224_haggling1',
@@ -33,6 +38,7 @@ TRAIN_LIST = [
     '160906_band2',
     '160906_band3',
 ]
+
 VAL_LIST = ['160906_pizza1', '160422_haggling1', '160906_ian5', '160906_band4']
 
 JOINTS_DEF = {
